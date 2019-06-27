@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>About Us</title>
+<!-- styling sheets -->
+    <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <!--about-->
+    <div id="about" class="about">
+        <div class="container">
+            <div class="about-info">
+                <h3>ABOUT US</h3>
+                <h4>what Is It?</h4>
+                <p>we are a web based application enabling our clients to get parking slots in nairobi cbd,book parking spots and pay for your parking space using a visa card.</p>
+            </div>
+        </div>
+        <script>
+            // When the user scrolls down 20px from the top of the document, show the button
+            window.onscroll = function () { scrollFunction() };
+
+            function scrollFunction() {
+                if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                    document.getElementById("myBtn").style.display = "block";
+                } else {
+                    document.getElementById("myBtn").style.display = "none";
+                }
+            }
+
+            // When the user clicks on the button, scroll to the top of the document
+            function topFunction() {
+                document.body.scrollTop = 0;
+                document.documentElement.scrollTop = 0;
+            }
+        </script>
+                <!--footer-->
+        <div class="footer">
+            <div class="container">
+                <a href=""><img src="images/p.jpg" alt="" /></a>
+                <div class="footer-icons">
+                        <a href="#" class="fa fa-facebook"></a>
+                        <a href="#" class="fa fa-twitter"></a>
+                        <a href="#" class="fa fa-linkedin"></a>
+                        <a href="#" class="fa fa-instagram"></a>
+                </div>
+                <p>Copyrights &copy; 2019 Parking Perroquet |All rights reserved. </p>
+            </div>
+        </div>
+    <!--/about-->
+</body>
+</html>

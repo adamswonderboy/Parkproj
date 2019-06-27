@@ -1,0 +1,121 @@
+html{
+ height:100%;
+ min-height:100%;
+ }
+body{
+  font-family: 'Bellefair', serif;
+   min-height:50px;
+   background:url(../images/asphalt.jpg) no-repeat;
+   min-height: 550px;
+   -webkit-background-size:cover;
+   -moz-background-size:cover;
+   -o-background-size:cover;
+   -ms-background-size:cover;
+   background-size:cover;
+   position:relative;
+   background-position: center;
+   background-attachment: fixed;
+   overflow: hidden;
+ }
+#particles-js{
+	height:100vh;
+  min-height:100%;
+}
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+}
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: purple;
+  border: none;
+  color: teal;
+  text-align: center;
+  font-size: 28px;
+  padding: 10px;
+  transition: all 0.5s;
+  cursor: pointer;
+  position: absolute;
+  width: 40%;
+  margin-top: 90%;
+  margin-left: 30%;
+  margin-right: 30%
+  overflow:visible;
+
+
+}
+
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+  color: white;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+
+}
+.copyright {
+  /* background-color: #C0C0C0; */
+    /* opacity: 0.5; */
+    text-align: center;
+    margin: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 99999;
+    /* border-top: 4px solid teal ; */
+    position: absolute;
+    min-height: 40px;
+    overflow:visible;
+}
+
+.copyright p {
+	color:#000;
+	font-size: 20px;
+	letter-spacing:2px;
+	line-height:1.8em;
+}
+.copyright a {
+    color: firebrick;
+}
+.title{
+  display: inline-block;
+  position: absolute;
+  text-align: center;
+  /* padding: 20px; */
+  padding-bottom: 20px;
+  width: 100%;
+  /* margin-top: 40%; */
+  margin-bottom: 8em;
+  /* margin-left: 30%; */
+  /* margin-right: 30% */
+}
+.title h1{
+  padding-top: 0.5em;
+  font-size: 60px;
+  color: white;
+}
+.title h3{
+  margin-top: 1.5em;
+
+}
